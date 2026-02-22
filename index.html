@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Maryam 🌸</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet" />
+  </head>
+  <body class="not-loaded">
+
+    <!-- ═══════════════════════════════════════════════════
+         PERSISTENT BACKGROUND ELEMENTS
+         ═══════════════════════════════════════════════════ -->
+    <div class="bg-animation">
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="floating-petal"></div>
+      <div class="floating-petal"></div>
+      <div class="floating-petal"></div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════
+         SCREEN 1 — FLOWER GARDEN INTRO
+         ═══════════════════════════════════════════════════ -->
+    <section id="flowerScreen" class="screen active">
+
+      <!-- Night-sky background (only within this screen) -->
+      <div class="night-layer"></div>
+
+      <!-- ── Flower Garden (CSS Artwork) ── -->
+      <div class="flowers">
+        <div class="flower flower--1">
+          <div class="flower__leafs flower__leafs--1">
+            <div class="flower__leaf flower__leaf--1"></div>
+            <div class="flower__leaf flower__leaf--2"></div>
+            <div class="flower__leaf flower__leaf--3"></div>
+            <div class="flower__leaf flower__leaf--4"></div>
+            <div class="flower__white-circle"></div>
+            <div class="flower__light flower__light--1"></div>
+            <div class="flower__light flower__light--2"></div>
+            <div class="flower__light flower__light--3"></div>
+            <div class="flower__light flower__light--4"></div>
+            <div class="flower__light flower__light--5"></div>
+            <div class="flower__light flower__light--6"></div>
+            <div class="flower__light flower__light--7"></div>
+            <div class="flower__light flower__light--8"></div>
+          </div>
+          <div class="flower__line">
+            <div class="flower__line__leaf flower__line__leaf--1"></div>
+            <div class="flower__line__leaf flower__line__leaf--2"></div>
+            <div class="flower__line__leaf flower__line__leaf--3"></div>
+            <div class="flower__line__leaf flower__line__leaf--4"></div>
+            <div class="flower__line__leaf flower__line__leaf--5"></div>
+            <div class="flower__line__leaf flower__line__leaf--6"></div>
+          </div>
+        </div>
+
+        <div class="flower flower--2">
+          <div class="flower__leafs flower__leafs--2">
+            <div class="flower__leaf flower__leaf--1"></div>
+            <div class="flower__leaf flower__leaf--2"></div>
+            <div class="flower__leaf flower__leaf--3"></div>
+            <div class="flower__leaf flower__leaf--4"></div>
+            <div class="flower__white-circle"></div>
+            <div class="flower__light flower__light--1"></div>
+            <div class="flower__light flower__light--2"></div>
+            <div class="flower__light flower__light--3"></div>
+            <div class="flower__light flower__light--4"></div>
+            <div class="flower__light flower__light--5"></div>
+            <div class="flower__light flower__light--6"></div>
+            <div class="flower__light flower__light--7"></div>
+            <div class="flower__light flower__light--8"></div>
+          </div>
+          <div class="flower__line">
+            <div class="flower__line__leaf flower__line__leaf--1"></div>
+            <div class="flower__line__leaf flower__line__leaf--2"></div>
+            <div class="flower__line__leaf flower__line__leaf--3"></div>
+            <div class="flower__line__leaf flower__line__leaf--4"></div>
+          </div>
+        </div>
+
+        <div class="flower flower--3">
+          <div class="flower__leafs flower__leafs--3">
+            <div class="flower__leaf flower__leaf--1"></div>
+            <div class="flower__leaf flower__leaf--2"></div>
+            <div class="flower__leaf flower__leaf--3"></div>
+            <div class="flower__leaf flower__leaf--4"></div>
+            <div class="flower__white-circle"></div>
+            <div class="flower__light flower__light--1"></div>
+            <div class="flower__light flower__light--2"></div>
+            <div class="flower__light flower__light--3"></div>
+            <div class="flower__light flower__light--4"></div>
+            <div class="flower__light flower__light--5"></div>
+            <div class="flower__light flower__light--6"></div>
+            <div class="flower__light flower__light--7"></div>
+            <div class="flower__light flower__light--8"></div>
+          </div>
+          <div class="flower__line">
+            <div class="flower__line__leaf flower__line__leaf--1"></div>
+            <div class="flower__line__leaf flower__line__leaf--2"></div>
+            <div class="flower__line__leaf flower__line__leaf--3"></div>
+            <div class="flower__line__leaf flower__line__leaf--4"></div>
+          </div>
+        </div>
+
+        <div class="grow-ans" style="--d:1.2s">
+          <div class="flower__g-long">
+            <div class="flower__g-long__top"></div>
+            <div class="flower__g-long__bottom"></div>
+          </div>
+        </div>
+
+        <div class="growing-grass">
+          <div class="flower__grass flower__grass--1">
+            <div class="flower__grass--top"></div>
+            <div class="flower__grass--bottom"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--1"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--2"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--3"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--4"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--5"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--6"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--7"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--8"></div>
+            <div class="flower__grass__overlay"></div>
+          </div>
+        </div>
+
+        <div class="growing-grass">
+          <div class="flower__grass flower__grass--2">
+            <div class="flower__grass--top"></div>
+            <div class="flower__grass--bottom"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--1"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--2"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--3"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--4"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--5"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--6"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--7"></div>
+            <div class="flower__grass__leaf flower__grass__leaf--8"></div>
+            <div class="flower__grass__overlay"></div>
+          </div>
+        </div>
+
+        <div class="grow-ans" style="--d:2.4s">
+          <div class="flower__g-right flower__g-right--1"><div class="leaf"></div></div>
+        </div>
+        <div class="grow-ans" style="--d:2.8s">
+          <div class="flower__g-right flower__g-right--2"><div class="leaf"></div></div>
+        </div>
+        <div class="grow-ans" style="--d:2.8s">
+          <div class="flower__g-front">
+            <div class="flower__g-front__leaf-wrapper flower__g-front__leaf-wrapper--1"><div class="flower__g-front__leaf"></div></div>
+            <div class="flower__g-front__leaf-wrapper flower__g-front__leaf-wrapper--2"><div class="flower__g-front__leaf"></div></div>
+            <div class="flower__g-front__leaf-wrapper flower__g-front__leaf-wrapper--3"><div class="flower__g-front__leaf"></div></div>
+            <div class="flower__g-front__leaf-wrapper flower__g-front__leaf-wrapper--4"><div class="flower__g-front__leaf"></div></div>
+            <div class="flower__g-front__leaf-wrapper flower__g-front__leaf-wrapper--5"><div class="flower__g-front__leaf"></div></div>
+            <div class="flower__g-front__leaf-wrapper flower__g-front__leaf-wrapper--6"><div class="flower__g-front__leaf"></div></div>
+            <div class="flower__g-front__leaf-wrapper flower__g-front__leaf-wrapper--7"><div class="flower__g-front__leaf"></div></div>
+            <div class="flower__g-front__leaf-wrapper flower__g-front__leaf-wrapper--8"><div class="flower__g-front__leaf"></div></div>
+            <div class="flower__g-front__line"></div>
+          </div>
+        </div>
+        <div class="grow-ans" style="--d:3.2s">
+          <div class="flower__g-fr">
+            <div class="leaf"></div>
+            <div class="flower__g-fr__leaf flower__g-fr__leaf--1"></div>
+            <div class="flower__g-fr__leaf flower__g-fr__leaf--2"></div>
+            <div class="flower__g-fr__leaf flower__g-fr__leaf--3"></div>
+            <div class="flower__g-fr__leaf flower__g-fr__leaf--4"></div>
+            <div class="flower__g-fr__leaf flower__g-fr__leaf--5"></div>
+            <div class="flower__g-fr__leaf flower__g-fr__leaf--6"></div>
+            <div class="flower__g-fr__leaf flower__g-fr__leaf--7"></div>
+            <div class="flower__g-fr__leaf flower__g-fr__leaf--8"></div>
+          </div>
+        </div>
+
+        <div class="long-g long-g--0">
+          <div class="grow-ans" style="--d:3s"><div class="leaf leaf--0"></div></div>
+          <div class="grow-ans" style="--d:2.2s"><div class="leaf leaf--1"></div></div>
+          <div class="grow-ans" style="--d:3.4s"><div class="leaf leaf--2"></div></div>
+          <div class="grow-ans" style="--d:3.6s"><div class="leaf leaf--3"></div></div>
+        </div>
+        <div class="long-g long-g--1">
+          <div class="grow-ans" style="--d:3.6s"><div class="leaf leaf--0"></div></div>
+          <div class="grow-ans" style="--d:3.8s"><div class="leaf leaf--1"></div></div>
+          <div class="grow-ans" style="--d:4s"><div class="leaf leaf--2"></div></div>
+          <div class="grow-ans" style="--d:4.2s"><div class="leaf leaf--3"></div></div>
+        </div>
+        <div class="long-g long-g--2">
+          <div class="grow-ans" style="--d:4s"><div class="leaf leaf--0"></div></div>
+          <div class="grow-ans" style="--d:4.2s"><div class="leaf leaf--1"></div></div>
+          <div class="grow-ans" style="--d:4.4s"><div class="leaf leaf--2"></div></div>
+          <div class="grow-ans" style="--d:4.6s"><div class="leaf leaf--3"></div></div>
+        </div>
+        <div class="long-g long-g--3">
+          <div class="grow-ans" style="--d:4s"><div class="leaf leaf--0"></div></div>
+          <div class="grow-ans" style="--d:4.2s"><div class="leaf leaf--1"></div></div>
+          <div class="grow-ans" style="--d:3s"><div class="leaf leaf--2"></div></div>
+          <div class="grow-ans" style="--d:3.6s"><div class="leaf leaf--3"></div></div>
+        </div>
+        <div class="long-g long-g--4">
+          <div class="grow-ans" style="--d:4s"><div class="leaf leaf--0"></div></div>
+          <div class="grow-ans" style="--d:4.2s"><div class="leaf leaf--1"></div></div>
+          <div class="grow-ans" style="--d:3s"><div class="leaf leaf--2"></div></div>
+          <div class="grow-ans" style="--d:3.6s"><div class="leaf leaf--3"></div></div>
+        </div>
+        <div class="long-g long-g--5">
+          <div class="grow-ans" style="--d:4s"><div class="leaf leaf--0"></div></div>
+          <div class="grow-ans" style="--d:4.2s"><div class="leaf leaf--1"></div></div>
+          <div class="grow-ans" style="--d:3s"><div class="leaf leaf--2"></div></div>
+          <div class="grow-ans" style="--d:3.6s"><div class="leaf leaf--3"></div></div>
+        </div>
+        <div class="long-g long-g--6">
+          <div class="grow-ans" style="--d:4.2s"><div class="leaf leaf--0"></div></div>
+          <div class="grow-ans" style="--d:4.4s"><div class="leaf leaf--1"></div></div>
+          <div class="grow-ans" style="--d:4.6s"><div class="leaf leaf--2"></div></div>
+          <div class="grow-ans" style="--d:4.8s"><div class="leaf leaf--3"></div></div>
+        </div>
+        <div class="long-g long-g--7">
+          <div class="grow-ans" style="--d:3s"><div class="leaf leaf--0"></div></div>
+          <div class="grow-ans" style="--d:3.2s"><div class="leaf leaf--1"></div></div>
+          <div class="grow-ans" style="--d:3.5s"><div class="leaf leaf--2"></div></div>
+          <div class="grow-ans" style="--d:3.6s"><div class="leaf leaf--3"></div></div>
+        </div>
+      </div>
+      <!-- ── End Flower Garden ── -->
+
+      <!-- Overlay message -->
+      <div class="flower-overlay" id="flowerOverlay">
+        <div class="flower-intro-card">
+          <p class="intro-for">✨ For Maryam ✨</p>
+          <h1 class="intro-heading">Let's dive into something magical</h1>
+          <div class="intro-divider"><span></span><i class="fas fa-star"></i><span></span></div>
+          <p class="intro-body">
+            I know I've bothered you a lot…<br />
+            More the mistake, more the compensation. 💫
+          </p>
+          <p class="intro-body">
+            I've been building this to apologize and to ask you for something.<br />
+            And if you agree — a beautiful journey might have a beautiful starting. 🌸
+          </p>
+          <button class="elegant-btn" id="startBtn">
+            <span>Begin the Journey</span>
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+    </section>
+    <!-- ═══════ END SCREEN 1 ═══════ -->
+
+
+    <!-- ═══════════════════════════════════════════════════
+         SCREEN 2 — APOLOGY
+         ═══════════════════════════════════════════════════ -->
+    <section id="apologyScreen" class="screen">
+      <div class="screen-wrapper">
+        <div class="screen-header">
+          <i class="fas fa-heart header-icon pulse-icon"></i>
+          <h2 class="screen-title">Before the pitch deck… 😭😂</h2>
+          <div class="title-decoration"><span class="line"></span><i class="fas fa-star"></i><span class="line"></span></div>
+        </div>
+        <div class="message-card glass-panel">
+          <p>
+            <strong>Maryam,</strong> I didn't want to make it awkward for you or bother you.
+            I really don't want to do this. Certainly, if it felt too personal or made you
+            uncomfortable, I apologise. But that was clearly not my intention.
+          </p>
+          <p>
+            Sometimes, we want to keep the conversation going because we're enjoying it.
+            You must have seen such reels — that when I don't have any topic I ask,
+            <em>"Do You Breathe? 😭😅"</em> That's me right now, I know.
+            But I was just trying to hold up a conversation because I thought you're someone
+            a person can actually talk to…
+          </p>
+          <p>
+            But yeah, I should also have asked you whether you're willing to talk to me
+            or not — so I'm sorry for that. And if you feel like not talking, or don't want
+            to receive a text, just let me know. But sometimes, we really need some
+            friendships to stay. And to start.
+          </p>
+          <div class="highlight-block">
+            <p>
+              I texted you because I feel you're smart enough to help me and cool enough
+              to talk about deep things like dreams, passion and perspectives — because
+              sometimes we need a friend who might not be in the same class 😂, but a person
+              who's better than many of the others we have.
+            </p>
+          </div>
+          <p>
+            I recently was going on a brain drain and needed to hold up meaningful
+            conversations to fill up the void — like Rumi and Shams. Most people don't
+            possess the intellectual capacity or find it boring, yet it seems you think
+            otherwise. I hope I'm thinking right. 🤞
+          </p>
+          <p>
+            I hope life is being kind to you, as you have been to me.
+          </p>
+          <p>
+            I have an innate thought that you hold that spark and intellectual capacity
+            in your mind, but aren't able to get to it lately because you're low on energy
+            or something. And I know one possible reason might be we're not familiar to
+            each other — but I guess all friendships start that way. Right? 😊
+          </p>
+          <div class="teaser-line">
+            <p>
+              Aur rahi baat — who I am and what I can bring to the table
+              is on the next page 😉
+            </p>
+          </div>
+        </div>
+        <button class="elegant-btn" id="nextToWhat">
+          <span>Who am I?</span>
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+    <!-- ═══════ END SCREEN 2 ═══════ -->
+
+
+    <!-- ═══════════════════════════════════════════════════
+         SCREEN 3 — WHAT I BRING
+         ═══════════════════════════════════════════════════ -->
+    <section id="whatScreen" class="screen">
+      <div class="screen-wrapper">
+        <div class="screen-header">
+          <i class="fas fa-gift header-icon"></i>
+          <h2 class="screen-title">So… what do I bring? 😄</h2>
+          <div class="title-decoration"><span class="line"></span><i class="fas fa-star"></i><span class="line"></span></div>
+        </div>
+        <div class="message-card glass-panel">
+          <p class="bring-intro">If I had to list what I bring in a friendship, it would be:</p>
+
+          <ul class="bring-list">
+            <li>
+              <span class="bullet-icon">😂</span>
+              <span>Unlimited bad jokes and random laughter</span>
+            </li>
+            <li>
+              <span class="bullet-icon">👂</span>
+              <span>A good listener when you want to talk or rant</span>
+            </li>
+            <li>
+              <span class="bullet-icon">🔍</span>
+              <span>
+                Honest advice — even when you don't ask for it 😅.
+                <em>You can consider it a side effect as well 😭</em>
+              </span>
+            </li>
+          </ul>
+
+          <div class="poetry-block">
+            <p class="poetry-intro">
+              I like poetry… especially <strong>Allama Iqbal</strong>,
+              because they actually knew how to turn simple thoughts into deep feelings.
+              Like one of my most favourite:
+            </p>
+            <blockquote class="urdu-poetry">
+              <p>مٹا دے اپنی ہستی کو اگر کچھ مرتبہ چاہے</p>
+              <p>کہ دانہ خاک میں مل کر گل و گلزار ہوتا ہے</p>
+            </blockquote>
+            <p class="poetry-translation">
+              <em>"Erase your existence if you seek some rank —<br />
+              for a seed, by merging into the earth, becomes a garden in bloom."</em>
+            </p>
+          </div>
+
+          <ul class="bring-list">
+            <li>
+              <span class="bullet-icon">✨</span>
+              <span>And a friendship that's chill, not dramatic.</span>
+            </li>
+          </ul>
+        </div>
+        <button class="elegant-btn" id="nextToPoem">
+          <span>Continue…</span>
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+    <!-- ═══════ END SCREEN 3 ═══════ -->
+
+
+    <!-- ═══════════════════════════════════════════════════
+         SCREEN 4 — THE POEM
+         ═══════════════════════════════════════════════════ -->
+    <section id="poemScreen" class="screen">
+      <div class="poem-bg-overlay"></div>
+      <div class="screen-wrapper poem-wrapper">
+        <div class="screen-header">
+          <i class="fas fa-feather-alt header-icon"></i>
+          <h2 class="screen-title">Something I wrote…</h2>
+          <div class="title-decoration"><span class="line"></span><i class="fas fa-star"></i><span class="line"></span></div>
+        </div>
+        <div class="poem-card glass-panel">
+          <div class="poem-lines">
+            <p class="poem-stanza">
+              All your darkest secrets,<br />
+              All your deepest scars,<br />
+              <em class="poem-ask">Can I have them?</em>
+            </p>
+            <div class="poem-divider"></div>
+            <p class="poem-stanza">
+              All your strongest lies,<br />
+              All your weakest truths,<br />
+              <em class="poem-ask">Can I know them?</em>
+            </p>
+            <div class="poem-divider"></div>
+            <p class="poem-stanza">
+              All your biggest fears,<br />
+              All your smallest tears,<br />
+              <em class="poem-ask">Can I feel them?</em>
+            </p>
+            <div class="poem-divider poem-divider--wide"></div>
+            <p class="poem-stanza poem-stanza--resolve">
+              I want to set you free from your demons.<br />
+              I want to fill your void with our moments.
+            </p>
+            <div class="poem-divider"></div>
+            <p class="poem-stanza">
+              All your dark secrets,<br />
+              All your deepest scars,<br />
+              <em class="poem-ask poem-ask--final">Can I have them?<br />Please.</em>
+            </p>
+          </div>
+        </div>
+        <button class="elegant-btn" id="nextToProposal">
+          <span>One Last Question…</span>
+          <i class="fas fa-heart"></i>
+        </button>
+      </div>
+    </section>
+    <!-- ═══════ END SCREEN 4 ═══════ -->
+
+
+    <!-- ═══════════════════════════════════════════════════
+         SCREEN 5 — FRIENDSHIP PROPOSAL
+         ═══════════════════════════════════════════════════ -->
+    <section id="proposalScreen" class="screen">
+      <div class="screen-wrapper proposal-wrapper">
+        <div class="screen-header">
+          <i class="fas fa-users header-icon"></i>
+          <h2 class="screen-title">A Special Question</h2>
+          <div class="hearts-deco">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+        <div class="proposal-content">
+          <div class="proposal-gif-wrap">
+            <img src="../FriendshipProposal-main/images/cat-01.gif" alt="Waiting…" class="proposal-gif" id="proposalGif" />
+          </div>
+          <div class="proposal-text glass-panel">
+            <p>
+              I know we don't really know each other yet…<br />
+              but some of the best things start exactly that way. 🌱
+            </p>
+            <p class="proposal-question-highlight">
+              Maryam, would you like to be my friend?
+            </p>
+            <p>
+              I promise chill vibes, honest conversations,<br />
+              random poetry, bad jokes, and someone who actually listens. 🌸 <br>
+              And I can assure you that I won't be one of those annoying friends who text you every day without a reason. I just want to be there when you need someone to talk to. You might not need me, but I want to be there for you when you do. And I can assure you that, you are not gonna regret of agreeing to this friendship 😊
+          </div>
+          <div class="response-message" id="responseMessage"></div>
+          <div class="proposal-buttons" id="proposalButtons">
+            <button class="proposal-btn yes-btn" id="yesBtn">
+              <i class="fas fa-heart"></i>
+              <span>Yes! Let's be friends!</span>
+            </button>
+            <button class="proposal-btn no-btn" id="noBtn">
+              <i class="fas fa-times"></i>
+              <span>Maybe Later</span>
+            </button>
+          </div>
+          <button class="elegant-btn restart-btn" id="restartBtn" style="display:none;">
+            <span>Ask Me Again</span>
+            <i class="fas fa-redo"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- ═══════ END SCREEN 5 ═══════ -->
+
+
+    <!-- ═══════════════════════════════════════════════════
+         SCREEN 6 — CELEBRATION
+         ═══════════════════════════════════════════════════ -->
+    <section id="celebrationScreen" class="screen">
+      <div class="confetti-container" id="confettiContainer"></div>
+      <div class="screen-wrapper celebration-wrapper">
+        <i class="fas fa-star celebration-star"></i>
+        <h2 class="celebration-title">We're Friends Now! 🎊</h2>
+        <div class="celebration-gif-wrap">
+          <img src="../FriendshipProposal-main/images/cat-yes.gif" alt="Yay!" class="celebration-gif" />
+        </div>
+        <div class="celebration-message glass-panel">
+          <p>
+            🌟 <strong>Thank you for saying yes, Maryam!</strong> 🌟
+          </p>
+          <p>
+            Here's to meaningful conversations, chill vibes,<br />
+            and a friendship that actually matters. 💛
+          </p>
+          <p class="special-text">
+            You're amazing — and I'm glad you gave this a chance. ✨
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ═══════ END SCREEN 6 ═══════ -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
